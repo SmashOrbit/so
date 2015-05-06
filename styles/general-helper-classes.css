@@ -1,0 +1,340 @@
+/*#endregion - ResetStyles *//*#region ===GeneralHelperClasses=== */
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.img-center {
+  margin: 0 auto;
+}
+.img-align-baseline {
+  vertical-align: baseline;
+}
+.img-align-top {
+  vertical-align: top;
+}
+.img-align-middle {
+  vertical-align: middle;
+}
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+.content-center {
+  text-align: center;
+}
+.content-right {
+  text-align: right;
+}
+.content-left {
+  text-align: left;
+}
+.padding-0 {
+  padding: 0px !important;
+}
+.padding-top-0 {
+  padding-top: 0px !important;
+}
+.padding-right-0 {
+  padding-right: 0px !important;
+}
+.padding-bottom-0 {
+  padding-bottom: 0px !important;
+}
+.padding-left-0 {
+  padding-left: 0px !important;
+}
+.padding-top-bottom-0 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.padding-right-left-0 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.padding-15 {
+  padding: 15px !important;
+}
+.padding-top-15 {
+  padding-top: 15px !important;
+}
+.padding-right-15 {
+  padding-right: 15px !important;
+}
+.padding-bottom-15 {
+  padding-bottom: 15px !important;
+}
+.padding-left-15 {
+  padding-left: 15px !important;
+}
+.padding-top-bottom-15 {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.padding-right-left-15 {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+.padding-30 {
+  padding: 30px !important;
+}
+.padding-top-30 {
+  padding-top: 30px !important;
+}
+.padding-right-30 {
+  padding-right: 30px !important;
+}
+.padding-bottom-30 {
+  padding-bottom: 30px !important;
+}
+.padding-left-30 {
+  padding-left: 30px !important;
+}
+.padding-top-bottom-30 {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.padding-right-left-30 {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+.padding-top-bottom-50 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.margin-0 {
+  margin: 0px !important;
+}
+.margin-top-0 {
+  margin-top: 0px;
+}
+.margin-right-0 {
+  margin-right: 0px !important;
+}
+.margin-bottom-0 {
+  margin-bottom: 0px !important;
+}
+.margin-left-0 {
+  margin-left: 0px !important;
+}
+.margin-top-bottom-0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.margin-right-left-0 {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.margin-bottom-5 {
+  margin-bottom: 5px !important;
+}
+.margin-15 {
+  margin: 15px !important;
+}
+.margin-top-15 {
+  margin-top: 15px !important;
+}
+.margin-right-15 {
+  margin-right: 15px !important;
+}
+.margin-bottom-15 {
+  margin-bottom: 15px !important;
+}
+.margin-left-15 {
+  margin-left: 15px !important;
+}
+.margin-top-bottom-15 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+.margin-right-left-15 {
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+}
+.margin-minus-15 {
+  margin: -15px !important;
+}
+.margin-top-minus-15 {
+  margin-top: -15px !important;
+}
+.margin-right-minus-15 {
+  margin-right: -15px !important;
+}
+.margin-bottom-minus-15 {
+  margin-bottom: -15px !important;
+}
+.margin-left-minus-15 {
+  margin-left: -15px !important;
+}
+.margin-top-bottom-minus-15 {
+  margin-top: -15px !important;
+  margin-bottom: -15px !important;
+}
+.margin-right-left-minus-15 {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+.margin-30 {
+  margin: 30px !important;
+}
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+.margin-right-30 {
+  margin-right: 30px !important;
+}
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}
+.margin-left-30 {
+  margin-left: 30px !important;
+}
+.margin-top-bottom-30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.margin-right-left-30 {
+  margin-right: 30px !important;
+  margin-left: 30px !important;
+}
+.margin-minus-30 {
+  margin: -30px !important;
+}
+.margin-top-minus-30 {
+  margin-top: -30px !important;
+}
+.margin-right-minus-30 {
+  margin-right: -30px !important;
+}
+.margin-bottom-minus-30 {
+  margin-bottom: -30px !important;
+}
+.margin-left-minus-30 {
+  margin-left: -30px !important;
+}
+.margin-top-bottom-minus-30 {
+  margin-top: -30px !important;
+  margin-bottom: -30px !important;
+}
+.margin-right-left-minus-30 {
+  margin-right: -30px !important;
+  margin-left: -30px !important;
+}
+.margin-50 {
+  margin: 50px !important;
+}
+.margin-top-50 {
+  margin-top: 50px !important;
+}
+.margin-right-50 {
+  margin-right: 50px !important;
+}
+.margin-bottom-50 {
+  margin-bottom: 50px !important;
+}
+.margin-left-50 {
+  margin-left: 50px !important;
+}
+.margin-top-bottom-50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+.margin-right-left-50 {
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+}
+.margin-minus-50 {
+  margin: -50px !important;
+}
+.margin-top-minus-50 {
+  margin-top: -50px !important;
+}
+.margin-right-minus-50 {
+  margin-right: -50px !important;
+}
+.margin-bottom-minus-50 {
+  margin-bottom: -50px !important;
+}
+.margin-left-minus-50 {
+  margin-left: -50px !important;
+}
+.margin-top-bottom-minus-50 {
+  margin-top: -50px !important;
+  margin-bottom: -50px !important;
+}
+.margin-right-left-minus-50 {
+  margin-right: -50px !important;
+  margin-left: -50px !important;
+}
+.display-inline-block {
+  display: inline-block;
+}
+.display-block {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.overflow-visible {
+  overflow: visible !important;
+}
+.nobr {
+  white-space: nowrap;
+}
+.background-color-white {
+  background-color: #ffffff;
+}
+.font-color-black {
+  color: #000000;
+}
+.no-hover-underline:hover {
+  text-decoration: none;
+}
+.border-none {
+  border: none !important;
+}
+strong {
+  font-weight: 700;
+}
+.inheritcase {
+  text-transform: inherit;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+sup {
+  top: -0.3em;
+  left: 2px;
+}
+p {
+  padding: 0;
+  margin: 15px 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-left: 20px;
+}
+a:focus,
+a:active {
+  outline: 0;
+}
+/*#endregion - GeneralHelperClasses */
